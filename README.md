@@ -65,6 +65,6 @@ python manage.py runserver
 _Para ejecutar el proceso, a través del navegador se accederá a través de la liga **http://127.0.0.1:8000/scrapping** para ejecutar el proceso y guardar la información en la BD_
 
 ## Paso 7. Visualizar información a nivel front-end
-_Para visualizar la información que se cargo, se accede a través de la liga **http://127.0.0.1:8000**, la cual mostrara las noticias en formato tabla, ordenadas de manera ascendente por fecha, la cual tiene un input de búsqueda que realizara las coincidencias de registros por el título o la fecha de creación, estos se consumen a través de una arquitectura REST con los siguientes 2 elementos:
-**http://127.0.0.1:8000/api/get-news** obtiene todos las noticias
-**http://127.0.0.1:8000/api/search-news/?search=Algo** obtiene las coincidencias por titulo y fecha de creación_
+_Para visualizar la información que se cargo, se accede a través de la liga **http://127.0.0.1:8000**, la cual mostrara las noticias en formato tabla, ordenadas de manera ascendente por fecha, la cual tiene un input de búsqueda que realizara las coincidencias de registros por el título o la fecha de creación, estos se consumen a través de una arquitectura REST con los siguientes 2 elementos:_
+* **http://127.0.0.1:8000/api/get-news** obtiene todos las noticias
+* **http://127.0.0.1:8000/api/search-news/?search=Algo** obtiene las coincidencias por titulo y fecha de creación
